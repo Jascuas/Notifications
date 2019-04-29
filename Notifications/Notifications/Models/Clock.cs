@@ -26,7 +26,7 @@ namespace Notifications.Models
                     this.Hora--;
                     if (Hora == 0)
                     {
-                        CrossLocalNotifications.Current.Show("Notificaciones", "Has llegado a 0 de " + hora);
+                        CrossLocalNotifications.Current.Show("Notificaciones", "Temporizador finalizado. Tiempo transcurrido:  " + hora);
                         return false;
                     }
                     else 

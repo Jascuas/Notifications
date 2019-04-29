@@ -6,7 +6,7 @@
 
     <StackLayout>
         
-        <Entry x:Name="entry"  HorizontalOptions="FillAndExpand" />
+        <Entry x:Name="entry"  HorizontalOptions="FillAndExpand" Placeholder="Introduce un tiempo"/>
         <Label x:Name="hora"
                        FontSize="Large"
                        FontAttributes="Bold"
@@ -14,7 +14,7 @@
                        HorizontalOptions="CenterAndExpand" 
                        Text="{Binding Hora}"/>
         <!-- Place new controls here -->
-        <Button x:Name="btnNotification" Text="Send Notification" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button x:Name="btnNotification" Text="Iniciar temporizador" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>
